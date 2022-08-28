@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>websock</title>
+        
+    </head>
+    <body>
+        <script src="https://unpkg.com/vue@3"></script>
+        <div id="app"><p v-html="message"></p></div>
+        <script>
+            const { createApp } = Vue;
+
+            var inst = createApp({
+                data() {
+                    return {
+                    message: 'Hello Vue!'
+                    }
+                },
+                mounted:function()
+                {
+                    var ws = new WebSocket("ws://127.0.0.1:8080");
+                    ws.onopen = function()
+                    {
+                        inst.message += "<br/>opened";
+                    };
+                    ws.onmessage = function(data)
+                    {
+                        inst.message += "<br/>" + data.data;
+                    };
+                    ws.onclose = function()
+                    {
+                        inst.message += "<br/> closed";
+                    };
+                }
+            }).mount('#app');
+
+            // createApp(
+            //     {
+            //         data() 
+            //         {
+            //             return 
+            //             {
+            //                 message: 'Hello Vue!'
+            //             }
+            //         }
+            //         // mounted:function()
+            //         // {
+            //         //     var ws = new WebSocket("ws://127.0.0.1:8080");
+            //         //     ws.onopen = function()
+            //         //     {
+            //         //         //app.message += "<br/>opened";
+            //         //     };
+            //         //     ws.onmessage = function(data)
+            //         //     {
+            //         //         //app.message += "<br/>" + data;
+            //         //     };
+            //         //     ws.onclose = function()
+            //         //     {
+            //         //         //app.message += "<br/> closed";
+            //         //     };
+            //         // }
+            //     }).mount('#app');
+
+        </script>
+    </body>
+</html>
