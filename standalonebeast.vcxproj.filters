@@ -1,22 +1,3775 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClInclude Include="boost\beast\_experimental\http\impl\icy_stream.hpp">
+      <Filter>boost\beast\_experimental\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\http\icy_stream.hpp">
+      <Filter>boost\beast\_experimental\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\detail\stream_state.hpp">
+      <Filter>boost\beast\_experimental\test\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\detail\stream_state.ipp">
+      <Filter>boost\beast\_experimental\test\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\impl\error.hpp">
+      <Filter>boost\beast\_experimental\test\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\impl\error.ipp">
+      <Filter>boost\beast\_experimental\test\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\impl\fail_count.ipp">
+      <Filter>boost\beast\_experimental\test\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\impl\stream.hpp">
+      <Filter>boost\beast\_experimental\test\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\impl\stream.ipp">
+      <Filter>boost\beast\_experimental\test\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\error.hpp">
+      <Filter>boost\beast\_experimental\test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\fail_count.hpp">
+      <Filter>boost\beast\_experimental\test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\handler.hpp">
+      <Filter>boost\beast\_experimental\test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\stream.hpp">
+      <Filter>boost\beast\_experimental\test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\test\tcp.hpp">
+      <Filter>boost\beast\_experimental\test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\detail\const_container.hpp">
+      <Filter>boost\beast\_experimental\unit_test\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\amount.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\dstream.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\global_suites.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\main.ipp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\match.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\recorder.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\reporter.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\results.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\runner.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\suite.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\suite_info.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\_experimental\unit_test\suite_list.hpp">
+      <Filter>boost\beast\_experimental\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\impl\read.hpp">
+      <Filter>boost\beast\core\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\impl\temporary_buffer.ipp">
+      <Filter>boost\beast\core\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\allocator.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\async_base.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\base64.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\base64.ipp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\bind_continuation.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\bind_default_executor.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\bind_handler.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\buffer.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\buffer_traits.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\buffers_pair.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\buffers_range_adaptor.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\buffers_ref.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\chacha.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\char_buffer.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\clamp.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\config.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\cpu_info.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\flat_stream.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\get_io_context.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\is_invocable.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\ostream.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\pcg.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\read.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\remap_post_to_defer.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\service_base.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\sha1.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\sha1.ipp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\static_const.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\static_ostream.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\static_string.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\stream_base.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\stream_traits.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\string.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\temporary_buffer.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\tuple.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\type_traits.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\variant.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\varint.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\win32_unicode_path.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detail\work_guard.hpp">
+      <Filter>boost\beast\core\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\async_base.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\basic_stream.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\buffered_read_stream.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\buffers_adaptor.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\buffers_cat.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\buffers_prefix.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\buffers_suffix.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\error.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\error.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\file_posix.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\file_stdio.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\file_win32.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\flat_buffer.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\flat_static_buffer.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\flat_static_buffer.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\flat_stream.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\multi_buffer.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\read_size.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\saved_handler.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\saved_handler.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\static_buffer.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\static_buffer.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\static_string.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\string.ipp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\impl\string_param.hpp">
+      <Filter>boost\beast\core\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\async_base.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\basic_stream.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\bind_handler.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffer_traits.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffered_read_stream.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_adaptor.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_cat.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_prefix.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_range.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_suffix.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\buffers_to_string.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\detect_ssl.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\error.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\file.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\file_base.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\file_posix.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\file_stdio.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\file_win32.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\flat_buffer.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\flat_static_buffer.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\flat_stream.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\make_printable.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\multi_buffer.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\ostream.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\rate_policy.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\read_size.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\role.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\saved_handler.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\span.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\static_buffer.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\static_string.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\stream_traits.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\string.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\string_param.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\string_type.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core\tcp_stream.hpp">
+      <Filter>boost\beast\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\basic_parsed_list.hpp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\basic_parser.hpp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\basic_parser.ipp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\chunk_encode.hpp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\rfc7230.hpp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\rfc7230.ipp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\detail\type_traits.hpp">
+      <Filter>boost\beast\http\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\basic_parser.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\basic_parser.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\chunk_encode.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\error.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\error.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\field.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\fields.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\fields.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\file_body_win32.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\message.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\parser.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\read.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\rfc7230.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\rfc7230.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\serializer.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\status.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\verb.ipp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\impl\write.hpp">
+      <Filter>boost\beast\http\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\basic_dynamic_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\basic_file_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\basic_parser.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\buffer_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\chunk_encode.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\dynamic_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\empty_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\error.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\field.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\fields.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\file_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\message.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\parser.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\read.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\rfc7230.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\serializer.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\span_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\status.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\string_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\type_traits.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\vector_body.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\verb.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http\write.hpp">
+      <Filter>boost\beast\http</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\ssl\ssl_stream.hpp">
+      <Filter>boost\beast\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\decorator.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\frame.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\hybi13.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\hybi13.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\impl_base.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\mask.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\mask.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\pmd_extension.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\pmd_extension.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\prng.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\prng.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\service.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\service.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\soft_mutex.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\type_traits.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\utf8_checker.hpp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\detail\utf8_checker.ipp">
+      <Filter>boost\beast\websocket\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\accept.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\close.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\error.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\error.ipp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\handshake.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\ping.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\read.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\rfc6455.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\ssl.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\stream.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\stream_impl.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\teardown.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\impl\write.hpp">
+      <Filter>boost\beast\websocket\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\error.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\option.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\rfc6455.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\ssl.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\stream.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\stream_base.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\stream_fwd.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket\teardown.hpp">
+      <Filter>boost\beast\websocket</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\bitstream.hpp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\deflate_stream.hpp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\deflate_stream.ipp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\inflate_stream.hpp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\inflate_stream.ipp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\ranges.hpp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\detail\window.hpp">
+      <Filter>boost\beast\zlib\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\impl\error.hpp">
+      <Filter>boost\beast\zlib\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\impl\error.ipp">
+      <Filter>boost\beast\zlib\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\deflate_stream.hpp">
+      <Filter>boost\beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\error.hpp">
+      <Filter>boost\beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\inflate_stream.hpp">
+      <Filter>boost\beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib\zlib.hpp">
+      <Filter>boost\beast\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\core.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\http.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\src.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\ssl.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\version.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\websocket.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\beast\zlib.hpp">
+      <Filter>boost\beast</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\core\empty_value.hpp">
+      <Filter>boost\core</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\endian_load.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\endian_reverse.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\endian_store.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\integral_by_size.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\intrinsic.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\is_scoped_enum.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\is_trivially_copyable.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\detail\order.hpp">
+      <Filter>boost\endian\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\endian\conversion.hpp">
+      <Filter>boost\endian</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\algo_type.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\algorithm.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\array_initializer.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\assert.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\bstree_algorithms_base.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\config_begin.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\config_end.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\default_header_holder.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\ebo_functor_holder.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\empty_node_checker.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\equal_to_value.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\exception_disposer.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\function_detector.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\generic_hook.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\get_value_traits.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\has_member_function_callable_with.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\hook_traits.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\iiterator.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\is_stateful_value_traits.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\iterator.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\key_nodeptr_comp.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\list_iterator.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\list_node.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\math.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\minimal_less_equal_header.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\minimal_pair_header.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\mpl.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\node_cloner_disposer.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\node_holder.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\parent_from_member.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\rbtree_node.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\reverse_iterator.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\simple_disposers.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\size_holder.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\std_fwd.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\tree_iterator.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\tree_node.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\tree_value_compare.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\uncast.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\value_functors.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\detail\workaround.hpp">
+      <Filter>boost\intrusive\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\bs_set_hook.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\bstree.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\bstree_algorithms.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\circular_list_algorithms.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\intrusive_fwd.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\link_mode.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\list.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\list_hook.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\options.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\pack_options.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\parent_from_member.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\pointer_plus_bits.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\pointer_rebind.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\pointer_traits.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\rbtree.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\rbtree_algorithms.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\set.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\intrusive\set_hook.hpp">
+      <Filter>boost\intrusive</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\addressof.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\config_begin.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\config_end.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\destruct_n.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\force_ptr.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\fwd_macros.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\iterator_to_raw_pointer.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\iterator_traits.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\meta_utils.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\meta_utils_core.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\move_helpers.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\placement_new.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\pointer_element.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\reverse_iterator.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\std_ns_begin.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\std_ns_end.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\to_raw_pointer.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\type_traits.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\unique_ptr_meta_utils.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\detail\workaround.hpp">
+      <Filter>boost\move\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\adl_move_swap.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\algorithm.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\core.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\default_delete.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\iterator.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\make_unique.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\move.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\traits.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\unique_ptr.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\utility.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\move\utility_core.hpp">
+      <Filter>boost\move</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\config.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_append.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_copy_if.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_count.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_fold.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_front.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_is_list.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_list.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_map_find.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_min_element.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_plus.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_remove_if.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_rename.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_void.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\detail\mp_with_index.hpp">
+      <Filter>boost\mp11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\algorithm.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\function.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\integer_sequence.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\integral.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\list.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\set.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\utility.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\mp11\version.hpp">
+      <Filter>boost\mp11</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\common_arithmetic_type.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\common_type_impl.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\composite_member_pointer_type.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\composite_pointer_type.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\config.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\has_binary_operator.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\has_postfix_operator.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\has_prefix_operator.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_function_cxx_03.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_function_cxx_11.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_function_msvc10_fix.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_function_ptr_helper.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_function_ptr_tester.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_likely_lambda.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_mem_fun_pointer_impl.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_mem_fun_pointer_tester.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_member_function_pointer_cxx_03.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_member_function_pointer_cxx_11.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\is_rvalue_reference_msvc10_fix.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\mp_defer.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\detail\yes_no_type.hpp">
+      <Filter>boost\type_traits\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_const.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_cv.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_lvalue_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_rvalue_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\add_volatile.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\aligned_storage.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\alignment_of.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\common_type.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\composite_traits.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\conditional.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\conjunction.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\conversion_traits.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\copy_cv.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\copy_cv_ref.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\copy_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\cv_traits.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\decay.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\declval.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\disjunction.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\enable_if.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\extent.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\floating_point_promotion.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\function_traits.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_and.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_and_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_or.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_or_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_xor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_bit_xor_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_complement.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_dereference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_divides.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_divides_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_equal_to.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_greater.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_greater_equal.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_left_shift.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_left_shift_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_less.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_less_equal.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_logical_and.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_logical_not.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_logical_or.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_minus.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_minus_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_modulus.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_modulus_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_multiplies.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_multiplies_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_negate.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_new_operator.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_not_equal_to.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_nothrow_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_nothrow_constructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_nothrow_copy.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_nothrow_destructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_plus.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_plus_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_post_decrement.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_post_increment.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_pre_decrement.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_pre_increment.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_right_shift.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_right_shift_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_constructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_copy.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_destructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_move_assign.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_trivial_move_constructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_unary_minus.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_unary_plus.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\has_virtual_destructor.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\integral_constant.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\integral_promotion.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\intrinsics.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_abstract.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_arithmetic.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_array.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_assignable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_base_and_derived.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_base_of.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_bounded_array.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_class.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_complete.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_complex.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_compound.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_const.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_constructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_convertible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_copy_assignable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_copy_constructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_default_constructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_destructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_empty.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_enum.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_final.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_float.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_floating_point.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_function.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_fundamental.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_integral.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_list_constructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_lvalue_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_member_function_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_member_object_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_member_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_noncopyable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_nothrow_move_assignable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_nothrow_move_constructible.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_nothrow_swappable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_object.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_pod.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_polymorphic.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_rvalue_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_same.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_scalar.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_scoped_enum.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_signed.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_stateless.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_trivially_copyable.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_unbounded_array.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_union.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_unscoped_enum.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_unsigned.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_virtual_base_of.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_void.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\is_volatile.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\make_signed.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\make_unsigned.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\make_void.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\negation.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\promote.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\rank.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_all_extents.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_bounds.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_const.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_cv.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_cv_ref.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_extent.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_pointer.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_reference.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\remove_volatile.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\type_identity.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\type_traits\type_with_alignment.hpp">
+      <Filter>boost\type_traits</Filter>
+    </ClInclude>
+    <ClInclude Include="boost\config.hpp">
+      <Filter>boost</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\buffer_sequence_adapter.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\descriptor_ops.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\dev_poll_reactor.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\dev_poll_reactor.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\epoll_reactor.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\epoll_reactor.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\eventfd_select_interrupter.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\handler_tracking.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_descriptor_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_file_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_service.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\io_uring_socket_service_base.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\kqueue_reactor.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\kqueue_reactor.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\null_event.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\pipe_select_interrupter.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_event.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_mutex.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_serial_port_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_thread.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\posix_tss_ptr.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\reactive_descriptor_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\reactive_socket_service_base.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\resolver_service_base.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\scheduler.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\select_reactor.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\select_reactor.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\service_registry.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\service_registry.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\signal_set_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\socket_ops.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\socket_select_interrupter.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_executor_service.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_executor_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_service.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\strand_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\thread_context.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\throw_error.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\timer_queue_ptime.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\timer_queue_set.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_event.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_file_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_handle_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_io_context.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_io_context.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_serial_port_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_iocp_socket_service_base.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_mutex.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_object_handle_service.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_static_mutex.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_thread.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\win_tss_ptr.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_ssocket_service_base.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_timer_scheduler.hpp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winrt_timer_scheduler.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\impl\winsock_init.ipp">
+      <Filter>asio\asio\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\array.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\array_fwd.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\assert.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\atomic_count.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\base_from_cancellation_state.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\base_from_completion_cond.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\bind_handler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\blocking_executor_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffer_resize_guard.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffer_sequence_adapter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\buffered_stream_storage.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\bulk_executor_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\call_stack.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\chrono.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\chrono_time_traits.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\completion_handler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\concurrency_hint.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\conditionally_enabled_event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\conditionally_enabled_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\config.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\consuming_buffers.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\cstddef.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\cstdint.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\date_time_fwd.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\deadline_timer_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\dependent_type.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_ops.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_read_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\descriptor_write_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\dev_poll_reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\epoll_reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\eventfd_select_interrupter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\exception.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\executor_function.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\executor_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\fd_set_adapter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\functional.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\future.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_arm_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_hppa_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_sync_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\gcc_x86_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\global.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_alloc_helpers.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_cont_helpers.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_invoke_helpers.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_tracking.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_type_requirements.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\handler_work.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\hash_map.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_control.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_object_impl.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_read_at_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_read_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_write_at_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_descriptor_write_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_file_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_null_buffers_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_operation.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_accept_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_connect_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recv_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recvfrom_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_recvmsg_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_send_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_sendto_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_socket_service_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\io_uring_wait_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\is_buffer_sequence.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\is_executor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\keyword_tss_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\kqueue_reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\limits.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\local_free_on_block_exit.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\macos_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\memory.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\non_const_lvalue.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\noncopyable.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_global.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_signal_blocker.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_socket_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_static_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\null_tss_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\object_pool.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\old_win_sdk_compat.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\op_queue.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\operation.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\pipe_select_interrupter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\pop_options.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_fd_set_adapter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_global.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_serial_port_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_signal_blocker.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_static_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\posix_tss_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\push_options.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_descriptor_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_null_buffers_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_accept_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_connect_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recv_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recvfrom_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_recvmsg_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_send_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_sendto_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_socket_service_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactive_wait_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\reactor_op_queue.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\recycling_allocator.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\regex_fwd.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_endpoint_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolve_query_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolver_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\resolver_service_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_operation.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_task.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scheduler_thread_info.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scoped_lock.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\scoped_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\select_interrupter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\select_reactor.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\service_registry.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_blocker.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_handler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_init.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\signal_set_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_holder.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_ops.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_option.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_select_interrupter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\socket_types.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\solaris_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\source_location.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\static_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_global.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_static_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\std_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\strand_executor_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\strand_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\string_view.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_context.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_group.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\thread_info_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\throw_error.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\throw_exception.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_ptime.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_queue_set.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_scheduler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\timer_scheduler_fwd.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\tss_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\type_traits.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\utility.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\variadic_templates.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wait_handler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wait_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_event.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_fd_set_adapter.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_fenced_block.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_global.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_file_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_read_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_handle_write_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_io_context.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_null_buffers_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_operation.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_overlapped_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_overlapped_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_serial_port_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_accept_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_connect_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recv_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recvfrom_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_recvmsg_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_send_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_socket_service_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_thread_info.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_iocp_wait_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_object_handle_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_static_mutex.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\win_tss_ptr.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winapp_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wince_thread.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_async_manager.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_async_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_resolve_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_resolver_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_connect_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_recv_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_socket_send_op.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_ssocket_service.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_ssocket_service_base.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_timer_scheduler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winrt_utils.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\winsock_init.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\work_dispatcher.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detail\wrapped_handler.hpp">
+      <Filter>asio\asio\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_invocable.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_operation.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\as_receiver.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\bulk_sender.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\submit_receiver.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\detail\void_receiver.hpp">
+      <Filter>asio\asio\execution\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\impl\bad_executor.ipp">
+      <Filter>asio\asio\execution\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\impl\receiver_invocation_error.ipp">
+      <Filter>asio\asio\execution\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\allocator.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\any_executor.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bad_executor.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\blocking.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\blocking_adaptation.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bulk_execute.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\bulk_guarantee.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\connect.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\context.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\context_as.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\execute.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\executor.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\invocable_archetype.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\mapping.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\occupancy.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\operation_state.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\outstanding_work.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\prefer_only.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\receiver.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\receiver_invocation_error.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\relationship.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\schedule.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\scheduler.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\sender.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_done.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_error.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\set_value.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\start.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution\submit.hpp">
+      <Filter>asio\asio\execution</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\impl\channel_service.hpp">
+      <Filter>asio\asio\experimental\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_handler.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_message.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_operation.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_payload.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_receive_op.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_send_functions.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_send_op.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\channel_service.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\completion_handler_erasure.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\coro_promise_allocator.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\has_signature.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\detail\partial_promise.hpp">
+      <Filter>asio\asio\experimental\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\as_single.hpp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\channel_error.ipp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\coro.hpp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\parallel_group.hpp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\promise.hpp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\impl\use_coro.hpp">
+      <Filter>asio\asio\experimental\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\append.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\as_single.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\as_tuple.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\awaitable_operators.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\basic_channel.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\basic_concurrent_channel.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\cancellation_condition.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel_error.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\channel_traits.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\co_spawn.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\concurrent_channel.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\coro.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\coro_traits.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\deferred.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\parallel_group.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\prepend.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\promise.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\experimental\use_coro.hpp">
+      <Filter>asio\asio\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\detail\impl\endpoint.ipp">
+      <Filter>asio\asio\generic\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\detail\endpoint.hpp">
+      <Filter>asio\asio\generic\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\basic_endpoint.hpp">
+      <Filter>asio\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\datagram_protocol.hpp">
+      <Filter>asio\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\raw_protocol.hpp">
+      <Filter>asio\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\seq_packet_protocol.hpp">
+      <Filter>asio\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\generic\stream_protocol.hpp">
+      <Filter>asio\asio\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\any_io_executor.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\append.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\as_tuple.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\awaitable.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\buffered_read_stream.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\buffered_write_stream.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\cancellation_signal.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\co_spawn.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect_pipe.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\connect_pipe.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\defer.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\deferred.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\detached.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\dispatch.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\error.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\error_code.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\execution_context.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\execution_context.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\executor.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\executor.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\handler_alloc_hook.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\io_context.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\io_context.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\multiple_exceptions.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\post.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\prepend.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read_at.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\read_until.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\redirect_error.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\serial_port_base.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\serial_port_base.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\spawn.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\src.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_context.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_context.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\system_executor.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\thread_pool.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\thread_pool.ipp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\use_awaitable.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\use_future.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\write.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\impl\write_at.hpp">
+      <Filter>asio\asio\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\impl\endpoint.ipp">
+      <Filter>asio\asio\ip\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\endpoint.hpp">
+      <Filter>asio\asio\ip\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\detail\socket_option.hpp">
+      <Filter>asio\asio\ip\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v4.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v4.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v6.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\address_v6.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\basic_endpoint.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\host_name.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v4.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v4.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v6.hpp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\impl\network_v6.ipp">
+      <Filter>asio\asio\ip\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4_iterator.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v4_range.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6_iterator.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\address_v6_range.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\bad_address_cast.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_endpoint.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_entry.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_iterator.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_query.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\basic_resolver_results.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\host_name.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\icmp.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\multicast.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\network_v4.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\network_v6.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\resolver_base.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\resolver_query_base.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\tcp.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\udp.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\unicast.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ip\v6_only.hpp">
+      <Filter>asio\asio\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\detail\impl\endpoint.ipp">
+      <Filter>asio\asio\local\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\detail\endpoint.hpp">
+      <Filter>asio\asio\local\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\basic_endpoint.hpp">
+      <Filter>asio\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\connect_pair.hpp">
+      <Filter>asio\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\datagram_protocol.hpp">
+      <Filter>asio\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\local\stream_protocol.hpp">
+      <Filter>asio\asio\local</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\basic_descriptor.hpp">
+      <Filter>asio\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\basic_stream_descriptor.hpp">
+      <Filter>asio\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\descriptor.hpp">
+      <Filter>asio\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\descriptor_base.hpp">
+      <Filter>asio\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\posix\stream_descriptor.hpp">
+      <Filter>asio\asio\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\impl\engine.ipp">
+      <Filter>asio\asio\ssl\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\impl\openssl_init.ipp">
+      <Filter>asio\asio\ssl\detail\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\buffered_handshake_op.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\engine.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\handshake_op.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\io.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\openssl_init.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\openssl_types.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\password_callback.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\read_op.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\shutdown_op.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\stream_core.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\verify_callback.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\detail\write_op.hpp">
+      <Filter>asio\asio\ssl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\context.hpp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\context.ipp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\error.ipp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\host_name_verification.ipp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\rfc2818_verification.ipp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\impl\src.hpp">
+      <Filter>asio\asio\ssl\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\context.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\context_base.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\error.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\host_name_verification.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\rfc2818_verification.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\stream.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\stream_base.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\verify_context.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl\verify_mode.hpp">
+      <Filter>asio\asio\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\bulk_execute_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\bulk_execute_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\connect_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\connect_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\equality_comparable.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\execute_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\execute_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\prefer_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\prefer_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\query_static_constexpr_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_concept_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_concept_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\require_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\schedule_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\schedule_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_done_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_done_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_error_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_error_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_value_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\set_value_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\start_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\start_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_query.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_require.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\static_require_concept.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\submit_free.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\traits\submit_member.hpp">
+      <Filter>asio\asio\traits</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\buffer.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\executor.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\internet.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\io_context.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\net.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\netfwd.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\socket.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ts\timer.hpp">
+      <Filter>asio\asio\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_object_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_overlapped_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_random_access_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\basic_stream_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\object_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\overlapped_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\overlapped_ptr.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\random_access_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\windows\stream_handle.hpp">
+      <Filter>asio\asio\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\any_io_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\append.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\as_tuple.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_allocator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_cancellation_slot.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associated_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\associator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\async_result.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\awaitable.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_datagram_socket.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_deadline_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_file.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_io_object.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_random_access_file.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_raw_socket.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_readable_pipe.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_seq_packet_socket.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_serial_port.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_signal_set.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_acceptor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_iostream.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_socket_streambuf.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_stream_file.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_stream_socket.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_streambuf.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_streambuf_fwd.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_waitable_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\basic_writable_pipe.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\bind_allocator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\bind_cancellation_slot.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\bind_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffer_registration.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_read_stream.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_read_stream_fwd.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_stream.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_stream_fwd.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_write_stream.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffered_write_stream_fwd.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\buffers_iterator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_signal.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_state.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\cancellation_type.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\co_spawn.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\completion_condition.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\compose.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\connect.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\connect_pipe.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\coroutine.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\deadline_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\defer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\deferred.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\detached.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\dispatch.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\error.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\error_code.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\execution_context.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\executor_work_guard.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\file_base.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_alloc_hook.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_continuation_hook.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\handler_invoke_hook.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\high_resolution_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_context.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_context_strand.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_service.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\io_service_strand.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_applicable_property.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_contiguous_iterator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_read_buffered.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\is_write_buffered.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\multiple_exceptions.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\packaged_task.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\placeholders.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\post.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\prefer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\prepend.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\query.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\random_access_file.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read_at.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\read_until.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\readable_pipe.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\recycling_allocator.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\redirect_error.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\registered_buffer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\require.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\require_concept.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\serial_port.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\serial_port_base.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\signal_set.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\socket_base.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\spawn.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\ssl.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\static_thread_pool.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\steady_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\strand.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\stream_file.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\streambuf.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_context.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_error.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\system_timer.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\this_coro.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\thread.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\thread_pool.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\time_traits.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\unyield.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\use_awaitable.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\use_future.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\uses_executor.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\version.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\wait_traits.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\writable_pipe.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\write.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\write_at.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio\yield.hpp">
+      <Filter>asio\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="asio\asio.hpp">
+      <Filter>asio</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="boost">
+      <UniqueIdentifier>{5a202cb7-70dd-43bf-bf0e-6693540d206e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast">
+      <UniqueIdentifier>{f1322fe9-b7c3-44af-be5c-57251d3ae76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental">
+      <UniqueIdentifier>{8b2e28db-1707-4e89-9191-2570538e8039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\http">
+      <UniqueIdentifier>{95dfa857-97a0-4ff3-bbe1-282b477b48bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\http\impl">
+      <UniqueIdentifier>{727e4eca-8181-4572-93db-3d6a7b1e61a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\test">
+      <UniqueIdentifier>{1f8952fc-32d8-4062-a6f6-b48e56219e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\test\detail">
+      <UniqueIdentifier>{2aec5982-8f7a-4089-8baf-a97370829b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\test\impl">
+      <UniqueIdentifier>{1cb1de59-f91e-42cf-8d90-6580ed11e2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\unit_test">
+      <UniqueIdentifier>{a05da78a-f725-4af4-a7af-3b0b89dbbb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\_experimental\unit_test\detail">
+      <UniqueIdentifier>{20b75e3f-9054-4c25-aeeb-22fb29b96eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\core">
+      <UniqueIdentifier>{72ddb742-e26a-4c9b-b526-dd14303e7a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\core\detail">
+      <UniqueIdentifier>{202765ca-dd54-408f-9acb-f14b5feee39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\core\detail\impl">
+      <UniqueIdentifier>{4f055b28-e00b-4487-b6e9-b4428312da0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\core\impl">
+      <UniqueIdentifier>{a55f5375-1c90-47bf-ad02-836ccd642892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\http">
+      <UniqueIdentifier>{b47e8866-614b-474d-b991-0cb9a9716932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\http\detail">
+      <UniqueIdentifier>{24364857-4cd3-4fd9-9703-36a4e4e87bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\http\impl">
+      <UniqueIdentifier>{8e6a5512-8aaf-47f8-ab64-0772a7abb6e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\ssl">
+      <UniqueIdentifier>{ce4e8642-7d74-4e73-a216-cd6a23f1669f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\websocket">
+      <UniqueIdentifier>{c9269a39-9d1e-4c3c-b7e2-0b6aca971a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\websocket\detail">
+      <UniqueIdentifier>{a66b8109-f2c9-4f75-a3ee-974d45c4d2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\websocket\impl">
+      <UniqueIdentifier>{a8fe5564-6385-4ae5-9d36-76c625b5e0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\zlib">
+      <UniqueIdentifier>{1c52d679-92a0-4f44-bbdf-dfd59f4c3cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\zlib\detail">
+      <UniqueIdentifier>{4c4133b4-0895-4348-96fb-063622c0f399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\beast\zlib\impl">
+      <UniqueIdentifier>{4ae8c9a0-6ec4-46ec-9a33-4bc0bd0d1a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\core">
+      <UniqueIdentifier>{83fcb578-743c-4189-ac29-ff15082dd61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\endian">
+      <UniqueIdentifier>{6f8d51c0-8960-4038-853b-78f0e8c7f852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\endian\detail">
+      <UniqueIdentifier>{889b26a3-bdfc-41d4-9b10-cf30965634bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\intrusive">
+      <UniqueIdentifier>{fb6018a2-f0f9-4499-98c2-c6f9e0cef94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\intrusive\detail">
+      <UniqueIdentifier>{f13e6c44-c3ad-4738-a309-06f479f1b588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\move">
+      <UniqueIdentifier>{35db717b-d41d-4f32-82cc-469ff5b2979a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\move\detail">
+      <UniqueIdentifier>{b46e7e41-613d-41b0-9990-26ff5858bd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\mp11">
+      <UniqueIdentifier>{6d122371-21cd-4e30-96f9-6e827c927a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\mp11\detail">
+      <UniqueIdentifier>{2caa7267-a1f7-491f-af75-78363be9d5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\type_traits">
+      <UniqueIdentifier>{f2cc172a-c568-4213-a914-84c4145e193c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boost\type_traits\detail">
+      <UniqueIdentifier>{1ce3931a-9c91-42d3-a1f6-2b1e98b252a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio">
+      <UniqueIdentifier>{a9f6c305-7671-4506-9bde-47a157ca9caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio">
+      <UniqueIdentifier>{7672f4ad-84f1-432e-973a-af396fbea46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\detail">
+      <UniqueIdentifier>{607f69c1-b9fc-4d9c-a620-6bf3b7506838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\detail\impl">
+      <UniqueIdentifier>{4e075356-c852-4827-917d-5e631863e2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\execution">
+      <UniqueIdentifier>{78fa30c0-12c1-4dc3-9000-54cfb2decb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\execution\detail">
+      <UniqueIdentifier>{71d35cf2-8d16-4b96-bb5e-a9a84df977da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\execution\impl">
+      <UniqueIdentifier>{0665a298-c03b-4cf2-b2e7-ea99ac4a8339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\experimental">
+      <UniqueIdentifier>{85328d53-d319-495f-a088-b10263e3aa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\experimental\detail">
+      <UniqueIdentifier>{f37a59a0-5b57-4bb0-b9ee-5f551363a3cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\experimental\detail\impl">
+      <UniqueIdentifier>{b2d5d915-ed12-46b9-bf28-f65b17257ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\experimental\impl">
+      <UniqueIdentifier>{eba96056-6530-4e27-83c4-2688c98af89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\generic">
+      <UniqueIdentifier>{122086b1-b637-40e8-9699-416f29f65128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\generic\detail">
+      <UniqueIdentifier>{6a5720b6-3387-4d16-8dd7-cde6692288d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\generic\detail\impl">
+      <UniqueIdentifier>{a972b612-f62d-4215-a569-25ca42640b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\impl">
+      <UniqueIdentifier>{631ebcd9-2a5a-44bc-947d-70d9e8e4ca3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ip">
+      <UniqueIdentifier>{feee9856-6a2d-4986-8ef5-276503df0d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ip\detail">
+      <UniqueIdentifier>{c2257e61-64f5-44e2-90bc-4acd52a3b143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ip\detail\impl">
+      <UniqueIdentifier>{704394a3-cb11-43e8-8d41-64f4ad2c81b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ip\impl">
+      <UniqueIdentifier>{28cb46af-e67e-4bb6-9df1-e8898b41f03b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\local">
+      <UniqueIdentifier>{7acfc508-57f3-4d77-b39d-339c3de60346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\local\detail">
+      <UniqueIdentifier>{4bfe3dc9-3054-4d25-9e56-968b02654358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\local\detail\impl">
+      <UniqueIdentifier>{aee8f167-1214-439d-982f-45407f1fa6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\posix">
+      <UniqueIdentifier>{bef55809-dcd1-4581-bcf8-548967f50d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ssl">
+      <UniqueIdentifier>{c0129613-feb4-4b77-87c9-fe91149c99ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ssl\detail">
+      <UniqueIdentifier>{78caaae2-2918-4014-a2d4-a1dc39aae0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ssl\detail\impl">
+      <UniqueIdentifier>{c950de49-6dd9-450e-b1ed-c8d456d8406b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ssl\impl">
+      <UniqueIdentifier>{8211de27-da5a-4f3c-9c03-dbc1a3e91699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\traits">
+      <UniqueIdentifier>{c5a9589f-8213-49c8-876a-4872ab23d47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\ts">
+      <UniqueIdentifier>{0f11b52a-4be4-472e-a42d-a750d2da0781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asio\asio\windows">
+      <UniqueIdentifier>{c21527df-c010-4ddd-aeb8-dbc94442f541}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
