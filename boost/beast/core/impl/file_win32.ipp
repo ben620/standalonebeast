@@ -15,7 +15,6 @@
 #if BOOST_BEAST_USE_WIN32_FILE
 
 #include <boost/beast/core/detail/win32_unicode_path.hpp>
-#include <>
 #include <boost/winapi/access_rights.hpp>
 #include <boost/winapi/error_codes.hpp>
 #include <boost/winapi/get_last_error.hpp>
