@@ -744,7 +744,7 @@ basic_stream(
         std::true_type{},
         std::forward<RatePolicy_>(policy),
         std::forward<Arg0>(arg0),
-        std::forward<Args>(args...)))
+        std::forward<Args>(args)...))
 {
 }
 
