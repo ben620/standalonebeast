@@ -13,7 +13,6 @@
 #include <boost/beast/_experimental/unit_test/suite.hpp>
 #include <boost/beast/core/error.hpp>
 #include <asio/asio/io_context.hpp>
-#include <boost/core/exchange.hpp>
 #include <optional>
 
 namespace boost {
