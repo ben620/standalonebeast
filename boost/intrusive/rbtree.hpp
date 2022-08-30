@@ -28,7 +28,7 @@
 #include <boost/intrusive/rbtree_algorithms.hpp>
 #include <boost/intrusive/link_mode.hpp>
 
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 
 #if defined(BOOST_HAS_PRAGMA_ONCE)
 #  pragma once

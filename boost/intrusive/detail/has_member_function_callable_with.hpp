@@ -28,7 +28,7 @@
 #endif   //#if defined(BOOST_NO_CXX11_DECLTYPE) && defined(BOOST_NO_CXX11_VARIADIC_TEMPLATES)
 
 #include <cstddef>
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 #include <boost/move/detail/fwd_macros.hpp>
 
 namespace boost_intrusive_hmfcw {

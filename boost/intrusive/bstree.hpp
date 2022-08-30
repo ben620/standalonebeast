@@ -40,8 +40,7 @@
 #include <boost/intrusive/bstree_algorithms.hpp>
 #include <boost/intrusive/link_mode.hpp>
 #include <boost/intrusive/parent_from_member.hpp>
-#include <boost/move/utility_core.hpp>
-#include <boost/move/adl_move_swap.hpp>
+#include <boost/move/core.hpp>
 
 #include <boost/intrusive/detail/minimal_pair_header.hpp>
 #include <cstddef>   //size_t...
@@ -734,7 +733,7 @@ class bstree_impl
    //!   move constructor throws (this does not happen with predefined Boost.Intrusive hooks)
    //!   or the move constructor of the comparison objet throws.
    bstree_impl(BOOST_RV_REF(bstree_impl) x)
-      : data_type(::boost::move(x.get_comp()), ::boost::move(x.get_value_traits()))
+      : data_type(std::move(x.get_comp()), std::move(x.get_value_traits()))
    {
       this->swap(x);
    }
@@ -974,7 +973,7 @@ class bstree_impl
    void swap(bstree_impl& other)
    {
       //This can throw
-      ::boost::adl_move_swap(this->get_comp(), other.get_comp());
+      std::swap(this->get_comp(), other.get_comp());
       //These can't throw
       node_algorithms::swap_tree(this->header_ptr(), node_ptr(other.header_ptr()));
       this->sz_traits().swap(other.sz_traits());

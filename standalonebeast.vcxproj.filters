@@ -979,37 +979,7 @@
     <ClInclude Include="boost\move\detail\workaround.hpp">
       <Filter>boost\move\detail</Filter>
     </ClInclude>
-    <ClInclude Include="boost\move\adl_move_swap.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\algorithm.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
     <ClInclude Include="boost\move\core.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\default_delete.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\iterator.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\make_unique.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\move.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\traits.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\unique_ptr.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\utility.hpp">
-      <Filter>boost\move</Filter>
-    </ClInclude>
-    <ClInclude Include="boost\move\utility_core.hpp">
       <Filter>boost\move</Filter>
     </ClInclude>
     <ClInclude Include="boost\mp11\detail\config.hpp">

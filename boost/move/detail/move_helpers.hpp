@@ -21,7 +21,7 @@
 #endif
 
 #include <boost/move/core.hpp>
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 #include <boost/move/detail/type_traits.hpp>
 
 #if defined(BOOST_NO_CXX11_RVALUE_REFERENCES)
@@ -73,7 +73,7 @@
       {  return FWD_FUNCTION(static_cast<const TYPE&>(x)); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(::boost::move(x));  }\
+      {  return FWD_FUNCTION(std::move(x));  }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(TYPE &x)\
       {  return FWD_FUNCTION(const_cast<const TYPE &>(x)); }\
@@ -92,7 +92,7 @@
             typename boost_move_conversion_aware_catch_2< ::boost::move_detail::nat, BOOST_MOVE_TEMPL_PARAM, TYPE>::type* = 0)\
          {\
             TYPE t((u));\
-            return FWD_FUNCTION(::boost::move(t));\
+            return FWD_FUNCTION(std::move(t));\
          }\
       //
    #else
@@ -109,7 +109,7 @@
             PUB_FUNCTION(const BOOST_MOVE_TEMPL_PARAM &u)\
          {\
             TYPE t((u));\
-            return FWD_FUNCTION(::boost::move(t));\
+            return FWD_FUNCTION(std::move(t));\
          }\
       //
    #endif
@@ -120,7 +120,7 @@
       {  return FWD_FUNCTION(static_cast<const TYPE&>(x)); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(::boost::move(x));  }\
+      {  return FWD_FUNCTION(std::move(x));  }\
       \
       template<class BOOST_MOVE_TEMPL_PARAM>\
       BOOST_MOVE_FORCEINLINE typename ::boost::move_detail::enable_if_c\
@@ -129,7 +129,7 @@
       PUB_FUNCTION(const BOOST_MOVE_TEMPL_PARAM &u)\
       {\
          TYPE t((u));\
-         return FWD_FUNCTION(::boost::move(t));\
+         return FWD_FUNCTION(std::move(t));\
       }\
    //
 
@@ -140,7 +140,7 @@
       {  return FWD_FUNCTION(x); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(::boost::move(x));  }\
+      {  return FWD_FUNCTION(std::move(x));  }\
    //
 
 #endif   //BOOST_NO_CXX11_RVALUE_REFERENCES
@@ -178,7 +178,7 @@
       {  return FWD_FUNCTION(arg1, static_cast<const TYPE&>(x)); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(ARG1 arg1, BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(arg1, ::boost::move(x));  }\
+      {  return FWD_FUNCTION(arg1, std::move(x));  }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(ARG1 arg1, TYPE &x)\
       {  return FWD_FUNCTION(arg1, const_cast<const TYPE &>(x)); }\
@@ -197,7 +197,7 @@
             typename boost_move_conversion_aware_catch_1arg_2<void, BOOST_MOVE_TEMPL_PARAM, UNLESS_CONVERTIBLE_TO, TYPE>::type* = 0)\
          {\
             TYPE t((u));\
-            return FWD_FUNCTION(arg1, ::boost::move(t));\
+            return FWD_FUNCTION(arg1, std::move(t));\
          }\
       //
    #else
@@ -214,7 +214,7 @@
             PUB_FUNCTION(ARG1 arg1, const BOOST_MOVE_TEMPL_PARAM &u)\
          {\
             TYPE t((u));\
-            return FWD_FUNCTION(arg1, ::boost::move(t));\
+            return FWD_FUNCTION(arg1, std::move(t));\
          }\
       //
    #endif
@@ -226,7 +226,7 @@
       {  return FWD_FUNCTION(arg1, static_cast<const TYPE&>(x)); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(ARG1 arg1, BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(arg1, ::boost::move(x));  }\
+      {  return FWD_FUNCTION(arg1, std::move(x));  }\
       \
       template<class BOOST_MOVE_TEMPL_PARAM>\
       BOOST_MOVE_FORCEINLINE typename ::boost::move_detail::disable_if_or\
@@ -237,7 +237,7 @@
       PUB_FUNCTION(ARG1 arg1, const BOOST_MOVE_TEMPL_PARAM &u)\
       {\
          TYPE t((u));\
-         return FWD_FUNCTION(arg1, ::boost::move(t));\
+         return FWD_FUNCTION(arg1, std::move(t));\
       }\
    //
 
@@ -248,7 +248,7 @@
       {  return FWD_FUNCTION(arg1, static_cast<const TYPE&>(x)); }\
       \
       BOOST_MOVE_FORCEINLINE RETURN_VALUE PUB_FUNCTION(ARG1 arg1, BOOST_MOVE_CATCH_RVALUE(TYPE) x) \
-      {  return FWD_FUNCTION(arg1, ::boost::move(x));  }\
+      {  return FWD_FUNCTION(arg1, std::move(x));  }\
    //
 
 #endif

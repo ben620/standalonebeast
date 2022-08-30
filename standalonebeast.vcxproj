@@ -1100,10 +1100,7 @@
     <ClInclude Include="boost\intrusive\rbtree_algorithms.hpp" />
     <ClInclude Include="boost\intrusive\set.hpp" />
     <ClInclude Include="boost\intrusive\set_hook.hpp" />
-    <ClInclude Include="boost\move\adl_move_swap.hpp" />
-    <ClInclude Include="boost\move\algorithm.hpp" />
     <ClInclude Include="boost\move\core.hpp" />
-    <ClInclude Include="boost\move\default_delete.hpp" />
     <ClInclude Include="boost\move\detail\addressof.hpp" />
     <ClInclude Include="boost\move\detail\config_begin.hpp" />
     <ClInclude Include="boost\move\detail\config_end.hpp" />
@@ -1124,13 +1121,6 @@
     <ClInclude Include="boost\move\detail\type_traits.hpp" />
     <ClInclude Include="boost\move\detail\unique_ptr_meta_utils.hpp" />
     <ClInclude Include="boost\move\detail\workaround.hpp" />
-    <ClInclude Include="boost\move\iterator.hpp" />
-    <ClInclude Include="boost\move\make_unique.hpp" />
-    <ClInclude Include="boost\move\move.hpp" />
-    <ClInclude Include="boost\move\traits.hpp" />
-    <ClInclude Include="boost\move\unique_ptr.hpp" />
-    <ClInclude Include="boost\move\utility.hpp" />
-    <ClInclude Include="boost\move\utility_core.hpp" />
     <ClInclude Include="boost\mp11\algorithm.hpp" />
     <ClInclude Include="boost\mp11\detail\config.hpp" />
     <ClInclude Include="boost\mp11\detail\mp_append.hpp" />

@@ -36,7 +36,7 @@
 #include <boost/intrusive/detail/size_holder.hpp>
 #include <boost/intrusive/detail/algorithm.hpp>
 
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 
 #include <boost/intrusive/detail/value_functors.hpp>
 #include <cstddef>   //std::size_t, etc.
@@ -224,7 +224,7 @@ class list_impl
    //!   move constructor throws (this does not happen with predefined Boost.Intrusive hooks)
    //!   or the move constructor of value traits throws.
    list_impl(BOOST_RV_REF(list_impl) x)
-      : data_(::boost::move(x.priv_value_traits()))
+      : data_(std::move(x.priv_value_traits()))
    {
       this->priv_size_traits().set_size(size_type(0));
       node_algorithms::init_header(this->get_root_node());

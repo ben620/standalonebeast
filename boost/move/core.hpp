@@ -231,7 +231,7 @@
    //
 
    #define BOOST_MOVE_BASE(BASE_TYPE, ARG) \
-      ::boost::move((BASE_TYPE&)(ARG))
+      std::move((BASE_TYPE&)(ARG))
    //
 
    #define BOOST_MOVE_TO_LV(ARG) \
@@ -482,12 +482,12 @@
    //!This macro is used to achieve portable optimal move constructors.
    //!
    //!When implementing the move constructor, in C++03 compilers the moved-from argument must be
-   //!cast to the base type before calling `::boost::move()` due to rvalue reference limitations.
+   //!cast to the base type before calling `std::move()` due to rvalue reference limitations.
    //!
    //!In C++11 compilers the cast from a rvalue reference of a derived type to a rvalue reference of
    //!a base type is implicit.
    #define BOOST_MOVE_BASE(BASE_TYPE, ARG) \
-      ::boost::move((BASE_TYPE&)(ARG))
+      std::move((BASE_TYPE&)(ARG))
    //
 
    //!This macro is used to achieve portable optimal move constructors.

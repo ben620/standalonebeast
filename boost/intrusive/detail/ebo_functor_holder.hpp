@@ -23,7 +23,7 @@
 #endif
 
 #include <boost/intrusive/detail/workaround.hpp>
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 
 namespace boost {
 namespace intrusive {
@@ -175,12 +175,12 @@ class ebo_functor_holder
    {}
 
    BOOST_INTRUSIVE_FORCEINLINE explicit ebo_functor_holder(BOOST_RV_REF(T) t)
-      : t_(::boost::move(t))
+      : t_(std::move(t))
    {}
 
    template<class Arg1, class Arg2>
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder(BOOST_FWD_REF(Arg1) arg1, BOOST_FWD_REF(Arg2) arg2)
-      : t_(::boost::forward<Arg1>(arg1), ::boost::forward<Arg2>(arg2))
+      : t_(std::forward<Arg1>(arg1), std::forward<Arg2>(arg2))
    {}
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder(const ebo_functor_holder &x)
@@ -199,7 +199,7 @@ class ebo_functor_holder
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder& operator=(BOOST_RV_REF(ebo_functor_holder) x)
    {
-      this->get() = ::boost::move(x.get());
+      this->get() = std::move(x.get());
       return *this;
    }
 
@@ -211,7 +211,7 @@ class ebo_functor_holder
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder& operator=(BOOST_RV_REF(T) x)
    {
-      this->get() = ::boost::move(x);
+      this->get() = std::move(x);
       return *this;
    }
 
@@ -240,12 +240,12 @@ class ebo_functor_holder<T, Tag, false>
    {}
 
    BOOST_INTRUSIVE_FORCEINLINE explicit ebo_functor_holder(BOOST_RV_REF(T) t)
-      : T(::boost::move(t))
+      : T(std::move(t))
    {}
 
    template<class Arg1, class Arg2>
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder(BOOST_FWD_REF(Arg1) arg1, BOOST_FWD_REF(Arg2) arg2)
-      : T(::boost::forward<Arg1>(arg1), ::boost::forward<Arg2>(arg2))
+      : T(std::forward<Arg1>(arg1), std::forward<Arg2>(arg2))
    {}
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder(const ebo_functor_holder &x)
@@ -265,7 +265,7 @@ class ebo_functor_holder<T, Tag, false>
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder& operator=(BOOST_RV_REF(ebo_functor_holder) x)
    {
-      this->get() = ::boost::move(x.get());
+      this->get() = std::move(x.get());
       return *this;
    }
 
@@ -277,7 +277,7 @@ class ebo_functor_holder<T, Tag, false>
 
    BOOST_INTRUSIVE_FORCEINLINE ebo_functor_holder& operator=(BOOST_RV_REF(T) x)
    {
-      this->get() = ::boost::move(x);
+      this->get() = std::move(x);
       return *this;
    }
 

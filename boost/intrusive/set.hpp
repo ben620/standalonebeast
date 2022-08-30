@@ -18,7 +18,7 @@
 
 #include <boost/intrusive/detail/mpl.hpp>
 #include <boost/intrusive/rbtree.hpp>
-#include <boost/move/utility_core.hpp>
+#include <boost/move/core.hpp>
 
 #if defined(BOOST_HAS_PRAGMA_ONCE)
 #  pragma once
