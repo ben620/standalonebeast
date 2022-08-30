@@ -16,7 +16,7 @@
 #include <boost/type_traits/is_same.hpp>
 #include <boost/type_traits/is_convertible.hpp>
 #include <boost/config.hpp>
-#include <boost/static_assert.hpp>
+
 #endif
 #include <boost/type_traits/remove_cv.hpp>
 #include <boost/type_traits/is_same.hpp>

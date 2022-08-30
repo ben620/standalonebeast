@@ -16,7 +16,7 @@
 #include <boost/type_traits/is_complete.hpp>
 #include <boost/type_traits/is_void.hpp>
 #include <boost/type_traits/is_array.hpp>
-#include <boost/static_assert.hpp>
+
 
 #if defined(BOOST_NO_CXX11_DECLTYPE)
 #include <boost/type_traits/detail/common_type_impl.hpp>

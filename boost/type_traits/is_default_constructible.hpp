@@ -13,7 +13,7 @@
 #include <boost/type_traits/integral_constant.hpp>
 
 #include <boost/type_traits/is_complete.hpp>
-#include <boost/static_assert.hpp>
+
 
 #if BOOST_WORKAROUND(BOOST_GCC_VERSION, < 40700)
 #include <boost/type_traits/is_abstract.hpp>

@@ -13,7 +13,7 @@
 #include <boost/type_traits/integral_constant.hpp>
 
 #include <boost/type_traits/is_complete.hpp>
-#include <boost/static_assert.hpp>
+
 
 #if !defined(BOOST_NO_CXX11_DECLTYPE) && !BOOST_WORKAROUND(BOOST_MSVC, < 1800)
 

@@ -19,7 +19,7 @@
 #include <boost/type_traits/enable_if.hpp>
 #include <boost/type_traits/declval.hpp>
 #include <boost/type_traits/is_complete.hpp>
-#include <boost/static_assert.hpp>
+
 
 namespace boost {
 

@@ -19,7 +19,7 @@
 #include <boost/type_traits/detail/yes_no_type.hpp>
 #include <boost/type_traits/declval.hpp>
 #include <boost/type_traits/is_complete.hpp>
-#include <boost/static_assert.hpp>
+
 
 #define BOOST_TT_IS_CONSTRUCTIBLE_CONFORMING 1
 

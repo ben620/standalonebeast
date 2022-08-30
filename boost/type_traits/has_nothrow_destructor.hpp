@@ -16,7 +16,7 @@
 #include <boost/type_traits/declval.hpp>
 #include <boost/type_traits/is_destructible.hpp>
 #include <boost/type_traits/is_complete.hpp>
-#include <boost/static_assert.hpp>
+
 
 namespace boost{
 

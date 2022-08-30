@@ -20,7 +20,7 @@
 #include <boost/type_traits/is_volatile.hpp>
 #include <boost/type_traits/add_const.hpp>
 #include <boost/type_traits/add_volatile.hpp>
-#include <boost/static_assert.hpp>
+
 
 namespace boost {
 
