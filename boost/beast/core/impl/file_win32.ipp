@@ -64,7 +64,7 @@ file_win32::
 
 file_win32::
 file_win32(file_win32&& other)
-    : h_(boost::exchange(other.h_,
+    : h_(std::exchange(other.h_,
         boost::winapi::INVALID_HANDLE_VALUE_))
 {
 }

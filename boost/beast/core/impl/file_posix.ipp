@@ -78,7 +78,7 @@ file_posix::
 
 file_posix::
 file_posix(file_posix&& other)
-    : fd_(boost::exchange(other.fd_, -1))
+    : fd_(std::exchange(other.fd_, -1))
 {
 }
 
