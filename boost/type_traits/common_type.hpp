@@ -12,7 +12,7 @@
 #include <boost/config.hpp>
 #include <boost/type_traits/decay.hpp>
 #include <boost/type_traits/declval.hpp>
-#include <boost/detail/workaround.hpp>
+
 #include <boost/type_traits/is_complete.hpp>
 #include <boost/type_traits/is_void.hpp>
 #include <boost/type_traits/is_array.hpp>

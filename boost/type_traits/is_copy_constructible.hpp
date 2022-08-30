@@ -10,7 +10,7 @@
 #define BOOST_TT_IS_COPY_CONSTRUCTIBLE_HPP_INCLUDED
 
 #include <boost/config.hpp>
-#include <boost/detail/workaround.hpp>
+
 
 #if !defined(BOOST_NO_CXX11_VARIADIC_TEMPLATES) && !defined(BOOST_NO_CXX11_DECLTYPE) && !BOOST_WORKAROUND(BOOST_MSVC, < 1800) && !BOOST_WORKAROUND(BOOST_GCC_VERSION, < 40900)
 

@@ -10,7 +10,7 @@
 #define BOOST_TT_REMOVE_EXTENT_HPP_INCLUDED
 
 #include <boost/config.hpp>
-#include <boost/detail/workaround.hpp>
+
 #include <cstddef> // size_t
 
 namespace boost {
