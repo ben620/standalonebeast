@@ -345,7 +345,7 @@ const_iterator(
     : bn_(&bn)
 {
     // one past the end
-    it_.emplace<sizeof...(Bn) + 1>();
+    it_.template emplace<sizeof...(Bn) + 1>();
 }
 
 template<class... Bn>

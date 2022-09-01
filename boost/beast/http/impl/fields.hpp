@@ -435,7 +435,7 @@ operator=(basic_fields&& other) noexcept(
     alloc_traits::propagate_on_container_move_assignment::value)
       -> basic_fields&
 {
-    static_assert(is_nothrow_move_assignable<Allocator>::value,
+    static_assert(std::is_nothrow_move_assignable<Allocator>::value,
         "Allocator must be noexcept assignable.");
     if(this == &other)
         return *this;

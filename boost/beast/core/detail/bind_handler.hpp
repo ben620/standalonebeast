@@ -22,6 +22,7 @@
 #include <functional>
 #include <type_traits>
 #include <utility>
+#include <tuple>
 
 namespace boost {
 namespace beast {
@@ -128,7 +129,7 @@ public:
     operator()(Values&&... values)
     {
         invoke(h_, args_,
-            tuple<Values&&...>(
+            std::tuple<Values&&...>(
                 std::forward<Values>(values)...),
             std::index_sequence_for<Args...>());
     }
