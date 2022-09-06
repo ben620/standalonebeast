@@ -8,11 +8,11 @@
 #include <boost/endian/detail/integral_by_size.hpp>
 #include <boost/endian/detail/intrinsic.hpp>
 #include <boost/endian/detail/is_scoped_enum.hpp>
-#include <boost/type_traits/is_integral.hpp>
-#include <boost/type_traits/is_same.hpp>
-#include <boost/type_traits/enable_if.hpp>
-#include <boost/type_traits/is_class.hpp>
-#include <boost/type_traits/integral_constant.hpp>
+
+
+
+
+
 #include <boost/config.hpp>
 #include <cstddef>
 #include <cstring>
@@ -104,15 +104,15 @@ inline uint128_type BOOST_ENDIAN_CONSTEXPR endian_reverse_impl( uint128_type x )
 
 // is_endian_reversible
 
-template<class T> struct is_endian_reversible: boost::integral_constant<bool,
-    (boost::is_integral<T>::value && !boost::is_same<T, bool>::value) || is_scoped_enum<T>::value>
+template<class T> struct is_endian_reversible: std::integral_constant<bool,
+    (std::is_integral<T>::value && !std::is_same<T, bool>::value) || is_scoped_enum<T>::value>
 {
 };
 
 // is_endian_reversible_inplace
 
-template<class T> struct is_endian_reversible_inplace: boost::integral_constant<bool,
-    boost::is_integral<T>::value || boost::is_enum<T>::value || boost::is_same<T, float>::value || boost::is_same<T, double>::value>
+template<class T> struct is_endian_reversible_inplace: std::integral_constant<bool,
+    std::is_integral<T>::value || std::is_enum<T>::value || std::is_same<T, float>::value || std::is_same<T, double>::value>
 {
 };
 
@@ -122,7 +122,7 @@ template<class T> struct is_endian_reversible_inplace: boost::integral_constant<
 //   T is non-bool integral or scoped enumeration type
 
 template<class T> inline BOOST_CONSTEXPR
-    typename enable_if_< !is_class<T>::value, T >::type
+    typename std::enable_if< !std::is_class<T>::value, T >::type
     endian_reverse( T x ) BOOST_NOEXCEPT
 {
    // BOOST_STATIC_ASSERT( detail::is_endian_reversible<T>::value ); //todo check
@@ -136,7 +136,7 @@ template<class T> inline BOOST_CONSTEXPR
 //   T is integral, enumeration, float or double
 
 template<class T> inline
-    typename enable_if_< !is_class<T>::value >::type
+    typename std::enable_if< !std::is_class<T>::value >::type
     endian_reverse_inplace( T & x ) BOOST_NOEXCEPT
 {
     BOOST_STATIC_ASSERT( detail::is_endian_reversible_inplace<T>::value );
@@ -153,7 +153,7 @@ template<class T> inline
 // Default implementation for user-defined types
 
 template<class T> inline
-    typename enable_if_< is_class<T>::value >::type
+    typename std::enable_if< std::is_class<T>::value >::type
     endian_reverse_inplace( T & x ) BOOST_NOEXCEPT
 {
     x = endian_reverse( x );

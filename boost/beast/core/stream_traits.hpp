@@ -14,7 +14,7 @@
 #include <boost/beast/core/detail/static_const.hpp>
 #include <boost/beast/core/detail/stream_traits.hpp>
 #include <asio/asio/basic_socket.hpp>
-#include <boost/type_traits/make_void.hpp>
+#include <type_traits>
 #define BOOST_WORKAROUND(symbol, test) 0
 
 
@@ -173,7 +173,7 @@ template<class T, class = void>
 struct has_get_executor : std::false_type {};
 
 template<class T>
-struct has_get_executor<T, boost::void_t<decltype(
+struct has_get_executor<T, std::void_t<decltype(
     std::declval<T&>().get_executor())>> : std::true_type {};
 #endif
 
@@ -211,7 +211,7 @@ template<class T, class = void>
 struct is_sync_read_stream : std::false_type {};
 
 template<class T>
-struct is_sync_read_stream<T, boost::void_t<decltype(
+struct is_sync_read_stream<T, std::void_t<decltype(
     std::declval<std::size_t&>() = std::declval<T&>().read_some(
         std::declval<detail::MutableBufferSequence>()),
     std::declval<std::size_t&>() = std::declval<T&>().read_some(
@@ -255,7 +255,7 @@ template<class T, class = void>
 struct is_sync_write_stream : std::false_type {};
 
 template<class T>
-struct is_sync_write_stream<T, boost::void_t<decltype(
+struct is_sync_write_stream<T, std::void_t<decltype(
     (
     std::declval<std::size_t&>() = std::declval<T&>().write_some(
         std::declval<detail::ConstBufferSequence>()))
@@ -338,7 +338,7 @@ template<class T, class = void>
 struct is_async_read_stream : std::false_type {};
 
 template<class T>
-struct is_async_read_stream<T, boost::void_t<decltype(
+struct is_async_read_stream<T, std::void_t<decltype(
     std::declval<T&>().async_read_some(
         std::declval<detail::MutableBufferSequence>(),
         std::declval<detail::ReadHandler>())
@@ -382,7 +382,7 @@ template<class T, class = void>
 struct is_async_write_stream : std::false_type {};
 
 template<class T>
-struct is_async_write_stream<T, boost::void_t<decltype(
+struct is_async_write_stream<T, std::void_t<decltype(
     std::declval<T&>().async_write_some(
         std::declval<detail::ConstBufferSequence>(),
         std::declval<detail::WriteHandler>())

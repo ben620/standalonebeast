@@ -11,7 +11,7 @@
 #define BOOST_BEAST_WEBSOCKET_DETAIL_DECORATOR_HPP
 
 #include <boost/beast/websocket/rfc6455.hpp>
-#include <boost/type_traits/make_void.hpp>
+
 #include <algorithm>
 #include <memory>
 #include <new>
@@ -33,7 +33,7 @@ struct can_invoke_with : std::false_type
 };
 
 template<class T, class U>
-struct can_invoke_with<T, U, boost::void_t<decltype(
+struct can_invoke_with<T, U, std::void_t<decltype(
     std::declval<T&>()(std::declval<U&>()))>>
     : std::true_type
 {
@@ -131,7 +131,7 @@ class decorator
     };
 
     template<class T, class U>
-    struct maybe_invoke<T, U, boost::void_t<decltype(
+    struct maybe_invoke<T, U, std::void_t<decltype(
         std::declval<T&>()(std::declval<U&>()))>>
     {
         void

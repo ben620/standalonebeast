@@ -12,7 +12,7 @@
 
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/error.hpp>
-#include <boost/type_traits/make_void.hpp>
+
 #include <type_traits>
 
 namespace boost {
@@ -130,7 +130,7 @@ template<class T, class = void>
 struct is_file : std::false_type {};
 
 template<class T>
-struct is_file<T, boost::void_t<decltype(
+struct is_file<T, std::void_t<decltype(
     std::declval<bool&>() = std::declval<T const&>().is_open(),
     std::declval<T&>().close(std::declval<error_code&>()),
     std::declval<T&>().open(

@@ -13,7 +13,7 @@
 #include <boost/beast/core/detail/config.hpp>
 #include <boost/beast/core/detail/allocator.hpp>
 #include <asio/asio/buffer.hpp>
-#include <boost/type_traits/type_with_alignment.hpp>
+
 #include <boost/core/empty_value.hpp>
 #include <boost/intrusive/list.hpp>
 #include <iterator>
@@ -116,8 +116,7 @@ class basic_multi_buffer
     using size_type = typename
         detail::allocator_traits<Allocator>::size_type;
 
-   using align_type = typename
-        boost::type_with_alignment<alignof(element)>::type;
+    using align_type = typename std::alignment_of<element>::type;
 
     using rebind_type = typename
         beast::detail::allocator_traits<Allocator>::

@@ -49,11 +49,9 @@ max_alignof()
         max_alignof<U0>() : max_alignof<U1, Us...>();
 }
 
-// (since C++17)
+
 template<class... Ts>
-using make_void = boost::make_void<Ts...>;
-template<class... Ts>
-using void_t = boost::void_t<Ts...>;
+using void_t = std::void_t<Ts...>;
 
 // (since C++11) missing from g++4.8
 template<std::size_t Len, class... Ts>

@@ -12,9 +12,9 @@
 #include <boost/endian/detail/endian_load.hpp>
 #include <boost/endian/detail/endian_store.hpp>
 #include <boost/endian/detail/order.hpp>
-#include <boost/type_traits/is_class.hpp>
-#include <boost/type_traits/is_array.hpp>
-#include <boost/type_traits/integral_constant.hpp>
+
+
+
 #include <boost/config.hpp>
 
 //------------------------------------- synopsis ---------------------------------------//
@@ -170,13 +170,13 @@ namespace detail
 {
 
 template<class EndianReversible>
-inline BOOST_CONSTEXPR EndianReversible conditional_reverse_impl( EndianReversible x, boost::true_type ) BOOST_NOEXCEPT
+inline BOOST_CONSTEXPR EndianReversible conditional_reverse_impl( EndianReversible x, std::true_type ) BOOST_NOEXCEPT
 {
     return x;
 }
 
 template<class EndianReversible>
-inline BOOST_CONSTEXPR EndianReversible conditional_reverse_impl( EndianReversible x, boost::false_type ) BOOST_NOEXCEPT
+inline BOOST_CONSTEXPR EndianReversible conditional_reverse_impl( EndianReversible x, std::false_type ) BOOST_NOEXCEPT
 {
     return endian_reverse( x );
 }
@@ -188,7 +188,7 @@ template <order From, order To, class EndianReversible>
 inline BOOST_CONSTEXPR EndianReversible conditional_reverse( EndianReversible x ) BOOST_NOEXCEPT
 {
     //BOOST_STATIC_ASSERT( boost::is_class<EndianReversible>::value || detail::is_endian_reversible<EndianReversible>::value );
-    return detail::conditional_reverse_impl( x, boost::integral_constant<bool, From == To>() );
+    return detail::conditional_reverse_impl( x, std::integral_constant<bool, From == To>() );
 }
 
 // runtime conditional reverse
@@ -196,7 +196,7 @@ template <class EndianReversible>
 inline BOOST_CONSTEXPR EndianReversible conditional_reverse( EndianReversible x,
     order from_order, order to_order ) BOOST_NOEXCEPT
 {
-    BOOST_STATIC_ASSERT( boost::is_class<EndianReversible>::value || detail::is_endian_reversible<EndianReversible>::value );
+    BOOST_STATIC_ASSERT( std::is_class<EndianReversible>::value || detail::is_endian_reversible<EndianReversible>::value );
     return from_order == to_order? x: endian_reverse( x );
 }
 
@@ -232,12 +232,12 @@ namespace detail
 {
 
 template<class EndianReversibleInplace>
-inline void conditional_reverse_inplace_impl( EndianReversibleInplace&, boost::true_type ) BOOST_NOEXCEPT
+inline void conditional_reverse_inplace_impl( EndianReversibleInplace&, std::true_type ) BOOST_NOEXCEPT
 {
 }
 
 template<class EndianReversibleInplace>
-inline void conditional_reverse_inplace_impl( EndianReversibleInplace& x, boost::false_type ) BOOST_NOEXCEPT
+inline void conditional_reverse_inplace_impl( EndianReversibleInplace& x, std::false_type  ) BOOST_NOEXCEPT
 {
     endian_reverse_inplace( x );
 }
@@ -249,11 +249,11 @@ template <order From, order To, class EndianReversibleInplace>
 inline void conditional_reverse_inplace( EndianReversibleInplace& x ) BOOST_NOEXCEPT
 {
     BOOST_STATIC_ASSERT(
-        boost::is_class<EndianReversibleInplace>::value ||
-        boost::is_array<EndianReversibleInplace>::value ||
+        std::is_class<EndianReversibleInplace>::value ||
+        std::is_array<EndianReversibleInplace>::value ||
         detail::is_endian_reversible_inplace<EndianReversibleInplace>::value );
 
-    detail::conditional_reverse_inplace_impl( x, boost::integral_constant<bool, From == To>() );
+    detail::conditional_reverse_inplace_impl( x, std::integral_constant<bool, From == To>() );
 }
 
 // runtime reverse in place
@@ -262,8 +262,8 @@ inline void conditional_reverse_inplace( EndianReversibleInplace& x,
     order from_order, order to_order ) BOOST_NOEXCEPT
 {
     BOOST_STATIC_ASSERT(
-        boost::is_class<EndianReversibleInplace>::value ||
-        boost::is_array<EndianReversibleInplace>::value ||
+        std::is_class<EndianReversibleInplace>::value ||
+        std::is_array<EndianReversibleInplace>::value ||
         detail::is_endian_reversible_inplace<EndianReversibleInplace>::value );
 
     if( from_order != to_order )

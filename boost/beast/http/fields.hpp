@@ -191,7 +191,7 @@ private:
             >::type;
 
     using align_type = typename
-        boost::type_with_alignment<alignof(element)>::type;
+        std::alignment_of<element>::type;
 
     using rebind_type = typename
         beast::detail::allocator_traits<Allocator>::

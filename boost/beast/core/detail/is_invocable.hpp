@@ -65,7 +65,7 @@ struct any_initiation
 
 template<class CompletionToken, class R, class...Args>
 struct is_completion_token_for<
-    CompletionToken, R(Args...), boost::void_t<decltype(
+    CompletionToken, R(Args...), std::void_t<decltype(
         ::asio::async_initiate<CompletionToken, R(Args...)>(
             any_initiation(), std::declval<CompletionToken&>())
         )>> : std::true_type

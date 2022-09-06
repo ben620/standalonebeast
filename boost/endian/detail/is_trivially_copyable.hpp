@@ -7,9 +7,7 @@
 // http://www.boost.org/LICENSE_1_0.txt
 
 #include <boost/config.hpp>
-#include <boost/type_traits/has_trivial_copy.hpp>
-#include <boost/type_traits/has_trivial_assign.hpp>
-#include <boost/type_traits/has_trivial_destructor.hpp>
+#include <type_traits>
 
 #if !defined(BOOST_NO_CXX11_HDR_TYPE_TRAITS)
 # include <type_traits>
